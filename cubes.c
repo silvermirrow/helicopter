@@ -87,7 +87,7 @@ void timer() {
  */
 void  myinit()
 {
-    ranx = rand() % 4 + 1; rany = rand() % 2; ranz = rand() % 5 + 1;
+    ranx = rand() % 3 + 1; rany = rand() % 2; ranz = rand() % 5 + 1;
     glClearColor(0.0, 0.0, 0.0, 1.0);      /*set the background color BLACK */
                      /*Clear the Depth & Color Buffers */
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
