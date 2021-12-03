@@ -444,13 +444,12 @@ void display()
         glScalef(zoom, zoom, zoom);
 
         if (!person) {glRotatef(-90, 0, 1.0, 0);
-            if (ft) {
-                
-                ft--;
+            //if (ft) {
+                //ft--;
                 gluLookAt(temppo[0], temppo[1], temppo[2], position[0], 0, position[2], 0.0, 1.0, 0.0);//position[0], position[1], position[2]
                 //glTranslatef(-temppo[0], -temppo[1], -temppo[2]);
-            }else
-                gluLookAt(temppo[0], temppo[1], temppo[2], 0, 0, 0, 0.0, 1.0, 0.0);
+            //}else
+                //gluLookAt(temppo[0], temppo[1], temppo[2], 0, 0, 0, 0.0, 1.0, 0.0);
         }
 
         if (person) {
