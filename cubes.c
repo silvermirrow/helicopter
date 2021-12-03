@@ -443,7 +443,7 @@ void display()
 
         glScalef(zoom, zoom, zoom);
 
-        //if (!person) {glRotatef(-90, 0, 1.0, 0);
+        if (!person) {glRotatef(-90, 0, 1.0, 0);
             //if (ft) {
                 
                 //ft--;
